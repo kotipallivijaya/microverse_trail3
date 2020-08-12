@@ -42,158 +42,166 @@
     - The freeCodeCamp Team
 
     -->
-    <div class="card p-5">
-      <div class="card-header text-center">
-        <h1 id="title">Survey Form</h1>
-      </div>
-      <div class="card-body text-center">
-        <p class="card-text">Hi! This is the microverse trial survey form.</p>
-        <form id="survey form">
-          <div class="form-group row">
-            <label for="name-label" class="col-sm-2 col-form-label">Name</label>
-            <div class="col-sm-10">
-              <input
-                required
-                type="text"
-                id="name"
-                name="name"
-                class="form-control"
-                id="email"
-                placeholder="Jane Doe"
-              />
-            </div>
+    <div class="ml-2 mr-2 text-center">
+      
+
+        <div class="card col-12 p-5">
+          <div class="card-header text-center">
+            <h1 id="title">Survey Form</h1>
           </div>
-          <div class="form-group row">
-            <label for="email-label" class="col-sm-2 col-form-label"
-              >Email</label
-            >
-            <div class="col-sm-10">
-              <input
-                required
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="email@example.com"
-              />
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="number-label" class="col-sm-2 col-form-label"
-              >Enter your age:</label
-            >
-            <div class="col-sm-10">
-              <input
-                placeholder="20"
-                required
-                min="18"
-                max="99"
-                type="number"
-                class="form-control"
-                id="number"
-                name="number"
-              />
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="course" class="col-sm-2 col-form-label"
-              >Choose a course:</label
-            >
-            <div class="col-sm-10">
-              <select id="dropdown" class="form-control" name="course">
-                <option value="python">Python</option>
-                <option value="javascript">Javascript </option>
-                <option value="c">C</option>
-                <option value="c++">C++</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-group row">
-            <label class="col-sm-2 col-form-label"
-              >Which languages do you speak?</label
-            >
-            <div class="col-sm-10">
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="inlineCheckbox1"
-                  value="1"
-                />
-                <label class="form-check-label" for="inlineCheckbox1"
-                  >English</label
+          <div class="card-body text-center">
+            <p id="description" class="card-text">Hi! This is the microverse trial survey form.</p>
+            <form id="survey-form">
+              <div class="form-group row">
+                <label for="name-label" id="name-label" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                  <input
+                    required
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    id="email"
+                    placeholder="Jane Doe"
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="email-label" id="email-label" class="col-sm-2 col-form-label"
+                  >Email</label
                 >
+                <div class="col-sm-10">
+                  <input
+                    required
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="email@example.com"
+                  />
+                </div>
               </div>
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="inlineCheckbox2"
-                  value="2"
-                />
-                <label class="form-check-label" for="inlineCheckbox2"
-                  >Telugu</label
+              <div class="form-group row">
+                <label for="number-label" id="number-label" class="col-sm-2 col-form-label"
+                  >Enter your age:</label
                 >
+                <div class="col-sm-10">
+                  <input
+                    placeholder="20"
+                    required
+                    min="18"
+                    max="99"
+                    type="number"
+                    class="form-control"
+                    id="number"
+                    name="number"
+                  />
+                </div>
               </div>
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="inlineCheckbox3"
-                  value="3"
-                />
-                <label class="form-check-label" for="inlineCheckbox3"
-                  >Spanish</label
+              <div class="form-group row">
+                <label for="course" class="col-sm-2 col-form-label"
+                  >Choose a course:</label
                 >
+                <div class="col-sm-10">
+                  <select id="dropdown" class="form-control" name="course">
+                    <option value="python">Python</option>
+                    <option value="javascript">Javascript </option>
+                    <option value="c">C</option>
+                    <option value="c++">C++</option>
+                  </select>
+                </div>
               </div>
-            </div>
+              <div class="form-group row">
+                <label class="col-sm-2 col-form-label"
+                  >Which languages do you speak?</label
+                >
+                <div class="col-sm-10">
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="1"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox1"
+                      >English</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox2"
+                      value="2"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox2"
+                      >Telugu</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox3"
+                      value="3"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox3"
+                      >Spanish</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Years of programming?</label>
+                <div class="col-sm-10">
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="name"
+                      id="inlineRadio1"
+                      value="1"
+                    />
+                    <label class="form-check-label" for="inlineRadio1">1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="name"
+                      id="inlineRadio2"
+                      value="2"
+                    />
+                    <label class="form-check-label" for="inlineRadio2">2</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="name"
+                      id="inlineRadio3"
+                      value="3"
+                    />
+                    <label class="form-check-label" for="inlineRadio3">3</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="comments">Comments</label>
+                <div class="col-sm-10">
+                   <textarea
+                        class="form-control"
+                        id="comments"
+                        name="additional comments"
+                        rows="4"
+                      ></textarea>
+                </div>
+              </div>
+              <button type="submit" id="submit" class="btn btn-primary">
+                Submit
+              </button>
+            </form>
           </div>
-          <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Years of programming?</label>
-            <div class="col-sm-10">
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="name"
-                  id="inlineRadio1"
-                  value="1"
-                />
-                <label class="form-check-label" for="inlineRadio1">1</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="name"
-                  id="inlineRadio2"
-                  value="2"
-                />
-                <label class="form-check-label" for="inlineRadio2">2</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="name"
-                  id="inlineRadio3"
-                  value="3"
-                />
-                <label class="form-check-label" for="inlineRadio3">3</label>
-              </div>
-            </div>
-          </div>
-          <label for="comments">comments</label>
-          <textarea
-            id="comments"
-            name="additional comments"
-            rows="4"
-            cols="60"
-          ></textarea>
-          <button type="submit" id="submit" class="btn btn-primary">
-            Submit
-          </button>
-        </form>
-      </div>
+        </div>
     </div>
     <!-- <p>Hello World, we are software developers!!</p> -->
     <script src="js/index.js"></script>
